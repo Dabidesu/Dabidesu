@@ -58,7 +58,8 @@
 </div>
 
 <div align="center">
-  
-![sora](https://github.com/user-attachments/assets/6a283959-50a5-4d16-8edb-b1362d482c07)
+
+<img src="/assets/sora.gif" width="15%"/>
+
 </div>
 
