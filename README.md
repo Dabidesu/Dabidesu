@@ -1,4 +1,4 @@
-### Henlo! I'm Dabid! 🫡🫡🫡
+# 👋 Henlo! I'm Dabid! 🫡🫡🫡
 
 I am a 23-year-old BS Computer Science graduate from Mapúa University, based in Metro Manila, Philippines.
 
