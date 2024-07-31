@@ -3,7 +3,7 @@
 > I am a 23-year-old BS Computer Science graduate from Mapúa University—based in Metro Manila, Philippines. 🫡🫡🫡 
 <div align="center">
   
-[![Portfolio](https://img.shields.io/badge/Portfolio-FFFFFF)](https://dabid.dev) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/dabidesu/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/daezgarin/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deagarin/) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://www.twitch.tv/dabidesu) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@dabidesu) [![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/thebid/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FFFFFF)](https://dabid.dev) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/dabidesu/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/daezgarin/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deagarin/) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://www.twitch.tv/dabidesu) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@dabidesu)
 </div>
 
 <div align="center">
@@ -38,6 +38,18 @@
 <div align="center">
   
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Dabidesu?theme=nord&font=Shippori%20Mincho%20B1&ext=heatmap)
+</div>
+
+<ul>
+  <li>Steam</li>
+</ul>
+
+
+<div align="center">
+
+[![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/thebid/)
+
+![Steam Card](https://card.yuy1n.io/card/76561198156830308/dark,en,badge,group)
 </div>
 
 
