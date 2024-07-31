@@ -16,11 +16,13 @@
 <div align="center">
   
 # 📊 Miscellaneous Stats
+</div>
+
 <ul>
   <li>Duolingo</li>
 </ul>
 
-
+<div align="center">
   
 ![Duolingo Stats](https://duolingo-stats-card.vercel.app/api?username=Dabidxd&sort=xp&theme=github-dark)
 </div>
