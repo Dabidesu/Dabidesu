@@ -1,4 +1,4 @@
-name: Testo
+name: Update Age
 
 on:
   schedule:
@@ -17,14 +17,14 @@ jobs:
 
     - name: Calculate Age and Update README
       run: |
-        birthdate="2001-02-25" 
+        birthdate="2001-02-25" # Your birthdate here in YYYY-MM-DD format
         today=$(date +%Y-%m-%d)
         age=$(($(date -d "$today" +%Y) - $(date -d "$birthdate" +%Y)))
         if [ $(date -d "$today" +%j) -lt $(date -d "$birthdate" +%j) ]; then
           age=$(($age - 1))
         fi
         echo "Age: $age"
-        sed -i "s/Age: [0-9]\+/Age: $age/" README.md
+        sed -i "s/[0-9]\+-year-old/${age}-year-old/" README.md
 
     - name: Commit Changes
       run: |
