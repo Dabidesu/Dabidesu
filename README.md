@@ -59,7 +59,7 @@
 
 <div align="center">
 
-<img src="/assets/sora.gif" width="5%"/>
+<img src="/assets/sora.gif" width="15%"/>
 
 </div>
 
