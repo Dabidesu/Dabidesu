@@ -12,10 +12,12 @@
 <ul>
   <li>Duolingo</li>
 </ul>
+
 ![Duolingo Stats](https://duolingo-stats-card.vercel.app/api?username=Dabidxd&sort=xp&theme=github-dark)
 <ul>
   <li>Leetcode</li>
 </ul>
+
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Dabidesu?theme=nord&font=Shippori%20Mincho%20B1&ext=heatmap)
 ---
 [![](https://visitcount.itsvg.in/api?id=Dabidesu&icon=0&color=12)](https://visitcount.itsvg.in)
