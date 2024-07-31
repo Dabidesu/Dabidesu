@@ -1,7 +1,7 @@
 ## Testo
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Dabidesu?theme=nord&font=Shippori%20Mincho%20B1&ext=heatmap)
-![Duolingo Stats](https://duolingo-stats-card.vercel.app/api?username=519694434&sort=xp)
+![Duolingo Stats](https://duolingo-stats-card.vercel.app/api?username=Dabidxd&sort=xp)
 <!--
 **Dabidesu/Dabidesu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
