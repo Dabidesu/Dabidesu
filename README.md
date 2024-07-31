@@ -24,7 +24,7 @@
 # 📊 Miscellaneous Stats
 
 <ul>
-  <li>Duolingo (for brushing up on my nihonggo!) </li>
+  <li>Duolingo (for brushing up on my nihongo!) </li>
 </ul>
 
 <div align="center">
@@ -33,7 +33,7 @@
 </div>
 
 <ul>
-  <li>Leetcode</li>
+  <li>Leetcode (:skull_emoji:) </li>
 </ul>
 
 <div align="center">
