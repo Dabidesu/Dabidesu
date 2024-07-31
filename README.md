@@ -1,9 +1,4 @@
-![Static GitHub Header](https://github.com/Dabidesu/Dabidesu/blob/main/assets/github_header.png?raw=true)
-<br><div align="center">
-# or 
-</div><br>  
-
-![Testo GitHub Header](https://github.com/Dabidesu/Dabidesu/blob/main/assets/github_header_gif.gif?raw=true)
+![GitHub Header](https://github.com/Dabidesu/Dabidesu/blob/main/assets/github_header_gif.gif?raw=true)
 
 > I am a 23-year-old BS Computer Science graduate from Mapúa University—based in Metro Manila, Philippines. 🫡🫡🫡
 
