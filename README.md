@@ -10,12 +10,14 @@
 
 # 📊 Miscellaneous Stats:
 <ul>
-<li>Duolingo</li>
+  <li>Duolingo</li>
+</ul>
 ![Duolingo Stats](https://duolingo-stats-card.vercel.app/api?username=Dabidxd&sort=xp&theme=github-dark)
   <br>
-<li>Leetcode</li>
+<ul>
+  <li>Leetcode</li>
+</uL
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Dabidesu?theme=nord&font=Shippori%20Mincho%20B1&ext=heatmap)
-</ul>
 ---
 [![](https://visitcount.itsvg.in/api?id=Dabidesu&icon=0&color=12)](https://visitcount.itsvg.in)
 
