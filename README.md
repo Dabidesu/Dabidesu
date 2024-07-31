@@ -24,7 +24,7 @@
 # 📊 Miscellaneous Stats
 
 <ul>
-  <li>Duolingo</li>
+  <li>Duolingo (for brushing up on my nihonggo!) </li>
 </ul>
 
 <div align="center">
@@ -42,7 +42,7 @@
 </div>
 
 <ul>
-  <li>Steam</li>
+  <li>Steam (i play games, too!) </li>
 </ul>
 
 
