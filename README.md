@@ -1,4 +1,8 @@
+<div align="center>
+  
 [![](https://visitcount.itsvg.in/api?id=Dabidesu&icon=0&color=12)](https://visitcount.itsvg.in)
+</div>
+
 ![alt text](https://github.com/Dabidesu/Dabidesu/blob/main/assets/github_header.png?raw=true)
 
 > I am a 23-year-old BS Computer Science graduate from Mapúa University—based in Metro Manila, Philippines. 🫡🫡🫡 
