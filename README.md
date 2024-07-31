@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+![LeetCode Stats](https://leetcard.jacoblin.cool/Dabidesu?theme=dark&font=Shippori%20Mincho%20B1&ext=heatmap)
 <!--
 **Dabidesu/Dabidesu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
