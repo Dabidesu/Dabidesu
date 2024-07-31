@@ -1,9 +1,5 @@
 ![alt text](https://github.com/Dabidesu/Dabidesu/blob/main/assets/github_header.png?raw=true)
 
-{{ $diff := now.Sub (time .Params.birthDate) }}
-{{ $years := div (div $diff.Hours 24) 365 }}
-{{ math.Floor $years }}
-
 > I am a 23-year-old BS Computer Science graduate from Mapúa University—based in Metro Manila, Philippines. 🫡🫡🫡 
 <div align="center">
   
