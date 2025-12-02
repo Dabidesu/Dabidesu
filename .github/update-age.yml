@@ -1,8 +1,12 @@
 name: Update Age
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # run daily at midnight UTC
+  workflow_dispatch: {} # allow manual runs for testing
   push:
     branches:
       - main
@@ -12,24 +16,48 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-    - name: Calculate Age and Update README
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Calculate age and update README
+      env:
+        BIRTHDATE: '2001-02-25'
       run: |
-        birthdate="2001-02-25" # Your birthdate here in YYYY-MM-DD format
-        today=$(date +%Y-%m-%d)
-        age=$(($(date -d "$today" +%Y) - $(date -d "$birthdate" +%Y)))
-        if [ $(date -d "$today" +%j) -lt $(date -d "$birthdate" +%j) ]; then
-          age=$(($age - 1))
-        fi
-        echo "Age: $age"
-        sed -i "s/[0-9]\+-year-old/${age}-year-old/" README.md
+        python - <<'PY'
+        from datetime import date, datetime
+        import re
 
-    - name: Commit Changes
+        birth = datetime.strptime('${{ env.BIRTHDATE }}', '%Y-%m-%d').date()
+        today = date.today()
+        age = today.year - birth.year - ((today.month, today.day) < (birth.month, birth.day))
+        print('Computed age:', age)
+
+        path = 'README.md'
+        with open(path, 'r', encoding='utf-8') as f:
+            text = f.read()
+
+        new_text, n = re.subn(r"\b\d+-year-old\b", f"{age}-year-old", text, count=1)
+        if n:
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(new_text)
+            print(f'Updated README.md: replaced {n} occurrence(s)')
+        else:
+            print('No age pattern found to replace in README.md')
+        PY
+
+    - name: Commit & push if changed
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add README.md
-        git commit -m "Update age in README"
-        git push
+        git add README.md || true
+        if git diff --staged --quiet; then
+          echo 'No changes to commit'
+        else
+          git commit -m "Update age in README"
+          git push
+        fi
