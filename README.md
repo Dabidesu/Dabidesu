@@ -1,6 +1,6 @@
 ![GitHub Header](https://github.com/Dabidesu/Dabidesu/blob/main/assets/github_header.gif?raw=true)
 
-> I am a 24-year-old BS Computer Science graduate from Mapúa University—based in Metro Manila, Philippines. 
+> I am a {{AGE}}-year-old BS Computer Science graduate from Mapúa University—based in Metro Manila, Philippines.
 
 <br>
 <div align="center">

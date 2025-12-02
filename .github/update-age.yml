@@ -5,8 +5,8 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 0 * * *' # run daily at midnight UTC
-  workflow_dispatch: {} # allow manual runs for testing
+    - cron: '0 0 * * *'
+  workflow_dispatch: {} 
   push:
     branches:
       - main
@@ -30,24 +30,26 @@ jobs:
       run: |
         python - <<'PY'
         from datetime import date, datetime
+        import os
         import re
 
-        birth = datetime.strptime('${{ env.BIRTHDATE }}', '%Y-%m-%d').date()
+        birthdate = os.environ.get('BIRTHDATE', '2001-02-25')
+        birth = datetime.strptime(birthdate, '%Y-%m-%d').date()
         today = date.today()
         age = today.year - birth.year - ((today.month, today.day) < (birth.month, birth.day))
-        print('Computed age:', age)
 
         path = 'README.md'
         with open(path, 'r', encoding='utf-8') as f:
-            text = f.read()
+          text = f.read()
 
-        new_text, n = re.subn(r"\b\d+-year-old\b", f"{age}-year-old", text, count=1)
-        if n:
-            with open(path, 'w', encoding='utf-8') as f:
-                f.write(new_text)
-            print(f'Updated README.md: replaced {n} occurrence(s)')
+        token, n_token = re.subn(r'\{\{AGE\}\}', str(age), text)
+
+        if n_token:
+          with open(path, 'w', encoding='utf-8') as f:
+            f.write(token)
+          print(f'Updated README.md with age {age}')
         else:
-            print('No age pattern found to replace in README.md')
+          print('No AGE token found in README.md')
         PY
 
     - name: Commit & push if changed
